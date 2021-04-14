@@ -1,0 +1,16 @@
+{
+    "theme_color": "#f69435",
+    "background_color": "#ffffff",
+    "display": "browser",
+    "scope": "/",
+    "start_url": "/",
+    "name": "みみやんホーム",
+    "short_name": "みみやん",
+    "icons": [
+        {
+            "src": "/icon-512x512.png",
+            "sizes": "512x512",
+            "type": "image/png"
+        }
+    ]
+}
