@@ -1,0 +1,83 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="theme-color" content="#000000">
+	<title>TOMOシネマ</title>
+<link rel="shortcut icon" href="favicon2.ico">
+<link rel="apple-touch-icon" href="apple-touch-icon.png">
+ <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+
+<!-- ウェブアプリマニフェストの読み込み -->
+<link rel="manifest" href="manifest.json">
+<!-- ServiceWorkerの登録 -->
+<script>
+if ('serviceWorker' in navigator) {
+    navigator.serviceWorker.register('sw.js')
+      .then((reg) => {
+        console.log('Service worker registered.', reg);
+      });
+}
+</script>
+
+<!-- アドレスバー等のブラウザのUIを非表示 -->
+<meta name="apple-mobile-web-app-capable" content="yes">
+<!-- default（Safariと同じ） / black（黒） / black-translucent（ステータスバーをコンテンツに含める） -->
+<meta name="apple-mobile-web-app-status-bar-style" content="black">
+<!-- ホーム画面に表示されるアプリ名 -->
+<meta name="apple-mobile-web-app-title" content="TOMOシネマ">
+<!-- ホーム画面に表示されるアプリアイコン -->
+<link rel="apple-touch-icon" href="apple-touch-icon2.png">
+
+</head>
+
+<h3>
+</h3>
+
+<body bgcolor="black">
+<p class="tomo"><img src="img2.png" width="800" height="140" alt="" align="center"></p>
+
+<div align="center"><img src="img3.png" width="388" height="88"></div>
+
+
+<span style="color: #FFFF00;"><b><p align="center">〇このシネマでは、みみやんちゃんねるで公開された映画を期間限定で無料公開しています。</p></b></span>
+
+<h3><span style="color: #000000;"><b>ーー</b></span></h3>
+    
+<p align="center"><video controls controlslist="nodownload" oncontextmenu="return false;" width="740" height="440" poster="img1.jpg">
+<source src="https://dl.dropboxusercontent.com/s/4o01z9ynqu9grxk/%E8%A8%98%E5%BF%B5%E6%98%A0%E7%94%BB.mp4" type="video/mp4">
+</video></p>
+<span style="color: #FFFFFF;"><b><p style="text-indent: 1em;"><div align="center">「さらわれた村娘と村人の戦い」公開期間：7月5日～8月1日</div></p></b></span>
+
+<h1><span style="color: #000000;"><b>ーー</b></span></h1>
+
+<p align="center"><video controls controlslist="nodownload" oncontextmenu="return false;" width="740" height="440" poster="img6.jpg">
+<source src="https://dl.dropboxusercontent.com/s/man56j3yjvrfrmq/%E6%98%A0%E7%94%BB%E3%83%9E%E3%82%A4%E3%83%B3%E3%82%AF%E3%83%A9%E3%83%95%E3%83%88%E3%80%8C%E7%89%A2%E5%B1%8B%E3%81%8B%E3%82%89%E3%81%AE%E8%84%B1%E5%87%BA%EF%BC%81%EF%BC%81%EF%BC%81%E3%80%8D.mp4" type="video/mp4">
+</video></p>
+<span style="color: #FFFFFF;"><b><p style="text-indent: 1em;"><div align="center">YouTubeでの公開日：2020年3月13日「牢屋からの脱出！！」公開期間：7月6日～</div></p></b></span>
+
+<h1><span style="color: #000000;"><b>ーー</b></span></h1>
+
+<p align="center"><video controls controlslist="nodownload" oncontextmenu="return false;" width="740" height="440" poster="img7.jpg">
+<source src="https://dl.dropboxusercontent.com/s/v1zuryslgourm53/%E6%98%A0%E7%94%BB%E3%83%9E%E3%82%A4%E3%83%B3%E3%82%AF%E3%83%A9%E3%83%95%E3%83%88%E3%80%80%E6%B2%BC%E5%9C%B0%E3%81%AB%E6%BD%9C%E3%82%80%E7%A7%98%E8%94%B5%E3%81%AE%E5%AE%9D%E3%80%80%E7%B7%8F%E5%90%88%E8%A6%96%E8%81%B4%E5%9B%9E%E6%95%B0%EF%BC%92%EF%BC%90%EF%BC%90%EF%BC%90%E5%9B%9E%E3%82%B9%E3%83%9A%E3%82%B7%E3%83%A3%E3%83%AB.mp4" type="video/mp4">
+</video></p>
+
+<span style="color: #FFFFFF;"><b><p style="text-indent: 1em;"><div align="center">YouTubeでの公開日：2020年1月6日「～沼地に潜む秘蔵の宝～」公開期間：7月9日～</div></p></b></span>
+
+<h1><span style="color: #000000;"><b>ーー</b></span></h1>
+
+<hr align="center" noshade style="color: #FFFFFF;">
+
+<span style="color: #FFFFFF;"><b><p style="text-indent: 1em;">製作：著作　Mimiyan,s.jp</p></b></span><span style="color: #FFFFFF;"><b><p style="text-indent: 1em;">最終更新日：7月9日(金)</b></span></p>
+<span style="color: #FF0000;"><b><p style="text-indent: 1em;">※このサイトの映画が違法にダウンロード及び他のサイトで発見された場合、厳しく対処します。</p></b></span>
+
+<h1><span style="color: #000000;"><b>ーー</b></span></h1>
+
+</body>
+
+<style>
+.tomo img { width: 100%; }
+</style>
+
+</html>
